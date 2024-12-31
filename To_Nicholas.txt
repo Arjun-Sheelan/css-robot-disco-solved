@@ -1,0 +1,1 @@
+Can you show me how the animation of the robot's right eye (shown in the INTRO video) was done in CSS?

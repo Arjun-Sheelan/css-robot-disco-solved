@@ -1,0 +1,155 @@
+@keyframes left-eye {
+  0% {
+    scale: 0.2;
+    background: radial-gradient(closest-side, #10a4fa, #ebf8e1, #774eb8);
+  }
+  80% {
+    scale: 0.8;
+    background: radial-gradient(
+      closest-side,
+      hsl(323, 96%, 52%),
+      #efff0b,
+      #02b2f8
+    );
+  }
+  100% {
+    scale: 1;
+    background: radial-gradient(closest-side, #2b3b42, #ebf8e1, #f6963c);
+  }
+}
+
+@keyframes right-eye {
+  0% {
+    transform: scaleX(0.2);
+  }
+  10% {
+    top: 0px;
+    transform: scaleX(0.2) scaleY(3);
+  }
+  20% {
+    top: 0px;
+    left: 290px;
+    transform: scaleX(0.8);
+  }
+  40% {
+    top: 0px;
+    left: 220px;
+    transform: scaleX(0.2);
+  }
+  60% {
+    transform: scaleX(0.2) scaleY(3);
+    top: 60px;
+    left: 220px;
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+    top: 60px;
+    left: 290px;
+  }
+}
+
+@keyframes ear-left {
+  from {
+    border-top-color: rgb(46, 233, 9);
+    border-left-color: rgb(46, 233, 9);
+    border-bottom-color: rgb(46, 233, 9);
+  }
+  to {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    transform: translateX(-100px);
+  }
+}
+@keyframes ear-right {
+  25% {
+    transform: rotatez(90deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  75% {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes tooth {
+  0% {
+    border: 1px solid black;
+  }
+  10% {
+    border: 1px solid rgb(231, 255, 176);
+  }
+  20% {
+    border: 1px solid rgb(253, 158, 158);
+  }
+  30% {
+    border: 1px solid rgb(171, 250, 161);
+  }
+  40% {
+    border: 1px solid rgb(201, 249, 255);
+  }
+  50% {
+    border: 1px solid rgb(67, 61, 129);
+  }
+  60% {
+    border: 1px solid rgb(255, 203, 211);
+  }
+  70% {
+    border: 1px solid rgb(94, 212, 26);
+  }
+  80% {
+    border: 1px solid rgb(68, 119, 139);
+  }
+  90% {
+    border: 1px solid rgb(146, 21, 125);
+  }
+  100% {
+    border: 1px solid rgb(218, 134, 9);
+  }
+}
+@keyframes hair-style {
+  20% {
+    transform: translateX(-60px) translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(-40px);
+  }
+
+  70% {
+    transform: translateX(60px) translateY(-20px);
+  }
+}
+@keyframes hair-one {
+  20% {
+    transform: scaleY(0.5);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+  70% {
+    transform: scaleY(0.2);
+  }
+}
+@keyframes hair-two {
+  20% {
+    transform: scaleY(1.2);
+  }
+  50% {
+    transform: scaleY(0.5);
+  }
+  70% {
+    transform: scaleY(1.5);
+  }
+}
+@keyframes hair-three {
+  20% {
+    transform: scaleY(1.5);
+  }
+  50% {
+    transform: scaleY(1.2);
+  }
+  70% {
+    transform: scaleY(0.5);
+  }
+}
